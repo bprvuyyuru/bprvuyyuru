@@ -1,3 +1,4 @@
+<img src="image.png" alt="banner Image">
 <h1 align="center">Hi 👋, I'm Bhanu Vuyyuru</h1>
 <h3 align="center">Passionate Full-Stack Developer | Crafting Scalable Web Applications with React, Node.js, and Cloud Technologies. Committed to building efficient, user-centric solutions that make an impact!</h3>
 
