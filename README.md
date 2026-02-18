@@ -1,6 +1,6 @@
 <img src="image.png" alt="banner Image">
 <h1 align="center">Hi 👋, I'm Bhanu Vuyyuru</h1>
-<h3 align="center">Passionate Full-Stack Developer | Crafting Scalable Web Applications with React, Node.js, and Cloud Technologies. Committed to building efficient, user-centric solutions that make an impact!</h3>
+<h3 align="center">Passionate Full-Stack Developer | Crafting Scalable Web Applications with React, Angular, Node.js, and Cloud Technologies. Committed to building efficient, user-centric solutions that make an impact!</h3>
 
 - 🔭 I’m currently working on **React Animations**
 
@@ -8,7 +8,7 @@
 
 - 👨‍💻 All of my projects are available at [https://bhanuvuyyuru.vercel.app/](https://bhanuvuyyuru.vercel.app/)
 
-- 💬 Ask me about **React, Angular, JS/TS, CSS, API, NodeJS, .NET**
+- 💬 Ask me about **React, Angular, JS/TS, CSS, API, NodeJS, NestJs**
 
 - 📫 How to reach me **bprvuyyuru@gmail.com**
 
