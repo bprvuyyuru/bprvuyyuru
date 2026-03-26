@@ -9,6 +9,8 @@ import {
 } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
+import MagicButton from "../main/MagicButton";
+import { FaLocationArrow } from "react-icons/fa";
 
 const HeroContent = () => {
   return (
@@ -23,22 +25,24 @@ const HeroContent = () => {
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-          <h1 className="Welcome-text text-[13px]">
-            Fullstack Developer Portfolio
-          </h1>
+          <h1 className="Welcome-text text-[13px]">Hi, I am BHANU VUYYURU</h1>
         </motion.div>
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-10 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-            Providing
+            Crafting Innovative Solutions with
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-              the best{" "}
+              Code{" "}
             </span>
-            project exprience
+            and
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-cyan-500">
+              {" "}
+              Creativity{" "}
+            </span>
           </span>
         </motion.div>
 
@@ -46,20 +50,25 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          I&apos;m a{" "}
+          <span className="cursive text-gray-100">
+            Full Stack Software Engineer
+          </span>{" "}
+          with experience in Website, Mobile, and Software development. Check
+          out my projects and skills.
         </motion.p>
-        <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-        >
-          Learn More!
+        <motion.a variants={slideInFromLeft(1)} href="#skills">
+          <MagicButton
+            title="Explore My Portfolio"
+            icon={<FaLocationArrow />}
+            position="right"
+          />
         </motion.a>
       </div>
 
       <motion.div
         variants={slideInFromRight(0.8)}
-        className="w-full h-full flex justify-center items-center"
+        className="w-full h-full flex justify-center items-center ml-[3rem]"
       >
         <Image
           src="/mainIconsdark.svg"
